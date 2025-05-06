@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FullTimeStaff
+comment0.text=\r\n\ The\ FullTimeStaff\ class\ represents\ a\ job\ role\ that\ is\ filled\ by\r\n\ a\ full-time\ employee.\r\n\ It\ extends\ StaffHire,\ meaning\ it\ inherits\ common\ attributes\ and\r\n\ methods,\ while\ adding\ full-time-specific\ information\ such\ as\ \r\n\ salary\ and\ weekly\ working\ hours.\r\n
+comment1.params=vacancyNumber\ designation\ jobType\ staffName\ joiningDate\ qualification\ appointedBy\ joined\ salary\ weeklyFractionalHours
+comment1.target=FullTimeStaff(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ double,\ int)
+comment1.text=\r\n\ Create\ a\ class\ that\ gives\ information\ about\ a\ full-time\ employee\r\n\ using\ both\ inherited\ and\ full-time\ specific\ attributes.\r\n
+comment2.params=
+comment2.target=double\ getSalary()
+comment2.text=\r\n\ Returns\ the\ salary\ of\ the\ staff\r\n
+comment3.params=newSalary
+comment3.target=void\ setSalary(double)
+comment3.text=\r\n\ Updates\ the\ salary\ of\ the\ staff.\r\n\ Only\ allows\ salary\ update\ if\ the\ staff\ has\ already\ joined\r\n\ the\ job.\r\n\ Prevents\ salary\ changes\ on\ vacant\ roles.\r\n\r\n\ @param\ newSalary\ The\ updated\ salary\ value\r\n
+comment4.params=
+comment4.target=int\ getWeeklyFractionalHours()
+comment4.text=\r\n\ Returns\ the\ number\ of\ hours\ worked\ per\ week\ for\ the\ \r\n\ full-time\ staff\r\n
+comment5.params=newWeeklyHours
+comment5.target=void\ setWeeklyFractionalHours(int)
+comment5.text=\r\n\ Updates\ the\ number\ of\ hours\ worked\ per\ week\ for\ the\ \r\n\ full-time\ staff.\r\n\r\n\ @param\ newWeeklyHours\ Updated\ number\ of\ hours\ per\ week\r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ Displays\ all\ information\ about\ the\ full-time\ staff.\r\n\ Calls\ the\ display\ method\ from\ StaffHire\ and\ then\ adds\ \r\n\ full-time-specific\ info.\r\n
+numComments=7
